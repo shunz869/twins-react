@@ -1,0 +1,161 @@
+{ "logo":{"url":"http://www.twinsceramicstudio.com/img/core-img/logo.jpg"},
+  "carosel":{
+    "url1":"http://www.twinsceramicstudio.com/img/bg-img/3.jpg",
+    "url2":"http://www.twinsceramicstudio.com/img/bg-img/4.jpg",
+    "url3":"http://www.twinsceramicstudio.com/img/bg-img/1.jpg"
+  },
+  "bowel":[
+    { "id":"11",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/11-2.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/11-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/9-1.png",
+      "name":"Chrysanthemum pattern bowl",
+      "price":"$12.9",
+      "specification":"Diameter - 16 cm",
+      "cat":"bowel"
+    },
+    {
+      "id":"27",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/27-1.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/27-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/27-2.png",
+      "name":"Grey stripe pattern bowl",
+      "price":"$8",
+      "description":"This bowl has an industrial-style and grey color. With this artistic and beautiful bowl, your dishes would be more attractive. This plate is suitable for salad, pasta and et.al. ",
+      "description1":"This multi-purpose bowl is made with high-temperature, which can be used with dishwashers, microware ovens and et. al.",
+      "specification":"Height - 6.5 cm",
+      "specification1":"Diameter - 15.7 cm",
+      "specification2":"Material - Ceramics",
+      "shipping":"If Sydney customers, please contact us and pick up at our warehouse",
+      "declaration":"Due to handmade, the exterior appearance of each individual item has a slight difference.",
+      "cat":"bowel"
+
+    },
+    {
+      "id":"56",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/56-1.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/56-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/56-2.png",
+      "name":"Japanese style stripe pattern bowl",
+      "price":"$12.8",
+      "specification":"Diameter - 15 cm",
+      "cat":"bowel"
+
+    },
+    {
+      "id":"80",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/80-2.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/80-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/80-1.png",
+      "name":"Industrial bowl",
+      "price":"$9.9",
+      "specification":"Diameter - 18 cm",
+      "cat":"bowel"
+
+    },
+    {
+      "id":"57",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/56-1.png",
+      "name":"Dark green bowl",
+      "price":"$11",
+      "specification":"Diameter - 16.2 cm",
+      "cat":"bowel"
+
+    },
+    {
+      "id":"78",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/78-2.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/78-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/77-1.png",
+      "name":"Line bowl",
+      "price":"$11.5",
+      "specification":"Diameter - 18 cm",
+      "cat":"bowel"
+
+    }
+    ],
+  "knives":[
+    {
+      "id":"1",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/15-1.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/15-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/15-2.png",
+      "name":"style 1",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"2",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-1.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-1.png",
+      "name":"style 2",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"3",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-2.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-2.png",
+      "name":"style 3",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"4",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-3.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-3.png",
+      "name":"style 4",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"5",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-4.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-4.png",
+      "name":"style 5",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"6",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-5.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-5.png",
+      "name":"style 6",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"7",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-6.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-6.png",
+      "name":"style 7",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    },
+    {
+      "id":"8",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-7.png",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-7.png",
+      "name":"style 8",
+      "price":"$9.9",
+      "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    }
+  ],
+  "platesset":[
+    {
+      "id":"29",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/29-1.png",
+      "name":"Autumn colour three-­‐pieces set",
+      "price":"10",
+      "cat":"platesset"
+    },
+    {
+      "id":"31",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/29-1.png",
+      "name":"Autumn colour three-­‐pieces set",
+      "price":"10",
+      "cat":"platesset"
+    }
+  ]
+
+}
