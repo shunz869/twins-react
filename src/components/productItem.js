@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RelatedPro from './relatedPro';
 
 class ProductItem extends Component {
   renderCarosel(){
@@ -58,7 +59,7 @@ class ProductItem extends Component {
     }
 
     return(
-      <div className="row">
+      <div className="row" style={{marginTop :30}}>
         <div className="col-md-8">
         {this.renderCarosel()}
         <p className="h5" style={{marginTop:20}}>{product.price}</p>
@@ -81,7 +82,9 @@ class ProductItem extends Component {
             </div>
         }
         </div>
-        <div className="col-md-4">related product</div>
+        <div className="col-md-4">
+          <RelatedPro product={product} />
+        </div>
       </div>
     );
   }

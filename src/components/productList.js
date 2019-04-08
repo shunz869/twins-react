@@ -6,11 +6,11 @@ class ProductList extends Component{
     const {product} = this.props;
     return(
       <div className="col-12 col-md-6 col-lg-6" key={product.id} style={{marginBottom :30}}>
-        <div className="card">
+        <div className="card" style={{border:0}}>
           <Link to={`/${product.cat}/${product.id}`}>
             <img src={product.imgurl} alt={product.name} className="card-img-top"  />
           </Link> 
-          <div className="card-body">
+          <div className="card-body" style={{paddingLeft:0}}>
             <h5 className="card-title">{product.price}</h5>
             <Link to={`/${product.cat}/${product.id}`} className="card-text">
               <p className="card-text">{product.name}</p>

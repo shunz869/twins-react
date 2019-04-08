@@ -4,6 +4,7 @@ import {fetchProduct} from '../actions/index';
 import ProductItem from './productItem';
 
 
+
 class BowelProduct extends Component{
   componentDidMount(){
     this.props.fetchProduct(this.props.match.params.id);

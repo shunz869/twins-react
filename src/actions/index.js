@@ -33,8 +33,6 @@ export const fetchProduct = (id) => async dispatch => {
   });
 };
 
-
-
 export const fetchPlates = () => async dispatch => {
   const response = await fetchData.get('/platesset');
   dispatch({
