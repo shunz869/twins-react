@@ -2,19 +2,38 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {fetchLogo} from '../actions/index';
+import './header.css'
 
 class Header extends Component{
   componentDidMount(){
     this.props.fetchLogo();
   }
-  render(){
 
+
+  render(){
+   // window.onscroll = function() {scrollFunction()};
+    /*function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("logo").style.fontSize = "25px";
+      } else {
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+      }
+    } */
     return(
       <div className="row">
-          <div className="col-md-4" style={{marginBottom:5}}>
+          <div className="col-4" style={{marginBottom:5}}>
             <img src={this.props.logo.url} alt="logo" width="80" />
           </div>
-          <div className="col-md-8" style={{textAlign:'right',marginBottom:5}} >this is the social media</div>
+          <div className="col-8 d-flex align-items-center justify-content-end" style={{marginBottom:5}}>
+            <ul className="list-inline" style={{margin:0}}>
+              <li className="list-inline-item">1</li>
+              <li className="list-inline-item">2</li>
+              <li className="list-inline-item">3</li>
+            </ul>
+          </div>
+
           <div className="col-12" >
             <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:'#e1f2f0'}}  >
                 <Link to="/" className="navbar-brand  h1" style={{marginTop:25,marginBottom:25}}>Twins Ceramic Studio</Link>
@@ -53,10 +72,12 @@ class Header extends Component{
                     <li className="nav-item">
                       <Link to="/contact" className="nav-link"> Contact</Link>
                     </li>
-
                   </ul>
                 </div>
- 
+                <form className="form-inline my-2 my-lg-0">
+                  <input type="text" className="form-control mr-sm-2"/>
+                  <span className="search_icon"><i className="fas fa-search"></i></span>
+                </form>
             </nav>
           </div>
       </div>
