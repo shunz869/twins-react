@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Router, Route} from 'react-router-dom';
 import history from './history';
-import Header from './components/header';
+import Header from './components/header.js';
 import BowelList from './components/bowelList';
 import Main from './components/main';
 import BowelProduct from './components/bowelProduct';
@@ -17,31 +17,36 @@ import TeaPot from './components/teaPot';
 import Footer from './components/footer';
 
 class App extends Component {
-  render() {
+  render(){
     return (
-      <div className="container">
-        <Router history={history}>
-          <div>
-            <Header />
-            <Route path="/" exact component={Main} />
-            <Route path="/plate" exact component={MiddlePlates} />
-            <Route path="/plate/middleplates" exact component={MiddlePlates} />
-            <Route path="/plate/largeplates" exact component={LargePlates} />
-            <Route path="/plate/polygonplates" exact component={PolygonPlates} />
-            <Route path="/plate/platesset" exact component={PlatesSet} />
-            <Route path="/bowel" exact component={BowelList} />
-            <Route path="/others" exact component={Cups} />
-            <Route path="/others/cups" exact component={Cups} />
-            <Route path="/others/sausedish" exact component={SauseDish} />
-            <Route path="/others/teapot" exact component={TeaPot} />
-            <Route path="/knives" exact component={Knives} />
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/bowel/:id" exact component={BowelProduct} />
-            <Footer />
-          </div>
-          
-        </Router>
-      </div>
+      <React.Fragment>
+        <div className="container">
+          <Router history={history}>
+            <div>
+              <Header />
+              <Route path="/" exact component={Main} />
+              <Route path="/plate" exact component={MiddlePlates} />
+              <Route path="/plate/middleplates" exact component={MiddlePlates} />
+              <Route path="/plate/largeplates" exact component={LargePlates} />
+              <Route path="/plate/polygonplates" exact component={PolygonPlates} />
+              <Route path="/plate/platesset" exact component={PlatesSet} />
+              <Route path="/bowel" exact component={BowelList} />
+              <Route path="/others" exact component={Cups} />
+              <Route path="/others/cups" exact component={Cups} />
+              <Route path="/others/sausedish" exact component={SauseDish} />
+              <Route path="/others/teapot" exact component={TeaPot} />
+              <Route path="/knives" exact component={Knives} />
+              <Route path="/contact" exact component={Contact} />
+              <Route path="/bowel/:id" exact component={BowelProduct} />
+            </div>
+          </Router>
+        </div>
+        <hr/>
+        <div className="container">
+          <Footer />
+        </div>
+      </React.Fragment>
+
     );
   }
 }

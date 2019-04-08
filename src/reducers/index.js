@@ -9,5 +9,5 @@ export default combineReducers({
   logo:logoReducer,
   products:productsReducer,
   carosel:caroselReducer,
-  plates:platesReducer
+  plates:platesReducer,
 });
