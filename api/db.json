@@ -1,8 +1,55 @@
 { "logo":{"url":"http://www.twinsceramicstudio.com/img/core-img/logo.jpg"},
-  "carosel":{
-    "url1":"http://www.twinsceramicstudio.com/img/bg-img/3.jpg",
-    "url2":"http://www.twinsceramicstudio.com/img/bg-img/4.jpg",
-    "url3":"http://www.twinsceramicstudio.com/img/bg-img/1.jpg"
+  "main":{
+    "carosel":{
+      "url1":"http://www.twinsceramicstudio.com/img/bg-img/3.jpg",
+      "url2":"http://www.twinsceramicstudio.com/img/bg-img/4.jpg",
+      "url3":"http://www.twinsceramicstudio.com/img/bg-img/1.jpg"
+    },
+    "mainproducts":[
+      {
+        "id":"25",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p1.jpg",
+        "name":"Fancy pink dessert plate",
+        "des":"Most popular one for dessert, it makes your food looks better and better.",
+        "price":"$25",
+        "cat":"plate"
+      },
+      {
+        "id":"021",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p2.jpg",
+        "name":"Light blue plate with dots on it",
+        "des":"This light blue plate comes out with black dots, it is suitable for Café and dessert display.",
+        "price":"$19",
+        "cat":"plate"
+      },
+      {
+        "id":"024",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p3.jpg",
+        "name":"Fancy blue dessert plate",
+        "des":"Most popular one for dessert, it makes your food looks better and better.",
+        "price":"$25",
+        "cat":"plate"
+      }
+    ],
+    "preorder":[],
+    "hotonsale":[
+      {
+        "id":"025",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p1.jpg"
+      },
+      {
+        "id":"021",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p2.jpg"
+      },
+      {
+        "id":"024",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p3.jpg"
+      },
+      {
+        "id":"013",
+        "imgurl":"http://www.twinsceramicstudio.com/img/blog-img/p4.jpg"
+      }
+    ]
   },
   "bowel":[
     { "id":"11",
@@ -156,6 +203,53 @@
       "price":"10",
       "cat":"platesset"
     }
-  ]
-
+  ],
+  "others":{
+    "cups":[
+      {
+        "id":"012",
+        "name":"Iron teacup",
+        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/12-1.png",
+        "price":"$8",
+        "cat":"cups"
+      },
+      {
+        "id":"047",
+        "name":"Marble cup",
+        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/47-1.png",
+        "price":"$10",
+        "cat":"cups"
+      },
+      {
+        "id":"051",
+        "name":"Gold Mug cup",
+        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+        "price":"$12.9",
+        "cat":"cups"
+      },
+      {
+        "id":"052",
+        "name":"Silver Mug cup",
+        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/52-2.png",
+        "price":"$12.9",
+        "cat":"cups"
+      },
+      {
+        "id":"053",
+        "name":"Gold coffee cup",
+        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/53-2.png",
+        "price":"$12.9",
+        "cat":"cups"
+      },
+      {
+        "id":"054",
+        "name":"Silver coffee cup",
+        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/54-2.png",
+        "price":"$12.9",
+        "cat":"cups"
+      }
+    ],
+    "dishes":[],
+    "teapot":[]
+  }
 }

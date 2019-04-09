@@ -1,13 +1,13 @@
 import {combineReducers} from 'redux';
 import logoReducer from './logoReducer';
 import productsReducer from './productsReducer';
-import caroselReducer from './caroselRdeducer';
 import platesReducer from './platesReducer';
+import mainProReducer from './mainProReducer';
 
 
 export default combineReducers({
   logo:logoReducer,
   products:productsReducer,
-  carosel:caroselReducer,
   plates:platesReducer,
+  main:mainProReducer
 });

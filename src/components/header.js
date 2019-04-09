@@ -28,9 +28,10 @@ class Header extends Component{
           </div>
           <div className="col-8 d-flex align-items-center justify-content-end" style={{marginBottom:5}}>
             <ul className="list-inline" style={{margin:0}}>
-              <li className="list-inline-item">1</li>
-              <li className="list-inline-item">2</li>
-              <li className="list-inline-item">3</li>
+              <li className="list-inline-item"><i className="fab fa-facebook-f"></i></li>
+              <li className="list-inline-item"><i className="fab fa-instagram"></i></li>
+              <li className="list-inline-item"><i className="fab fa-weixin"></i></li>
+              <li className="list-inline-item"><i className="fab fa-line"></i></li>
             </ul>
           </div>
 

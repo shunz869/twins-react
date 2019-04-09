@@ -4,3 +4,6 @@ export const FETCH_PRODUCT= 'FETCH_PRODUCT';
 export const FETCH_CAROSEL ="FETCH_CAROSEL";
 export const FETCH_PLATES ="FETCH_PLATES";
 export const FETCH_PLATE ="FETCH_PLATE";
+export const FETCH_MAIN ="FETCH_MAIN";
+export const FETCH_PREORDER ="FETCH_PREORDER";
+

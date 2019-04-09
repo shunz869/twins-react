@@ -1,47 +1,41 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import {fetchCarosel} from '../actions/index';
+import {fetchMain} from '../actions/index';
+import MainProducts from './mainProducts';
+import PreOrder from './preOrder';
+import Carousel from './carousel';
 
 class Main extends Component{
   componentDidMount(){
-    this.props.fetchCarosel();
-  };
-
+    this.props.fetchMain();
+  }
   render(){
-    const {carosel} = this.props;
-
+    const carousel=this.props.main[0]
+    const mainProducts=this.props.main[1]
+    const preOrder = this.props.main[3]
     return(
-      <div className="row">
-        <div className="col-12">
-          <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={carosel.url1} className="d-block w-100" alt="1"/>
-              </div>
-              <div className="carousel-item">
-                <img src={carosel.url2} className="d-block w-100" alt="2"/>
-              </div>
-              <div className="carousel-item">
-                <img src={carosel.url3} className="d-block w-100" alt="3"/>
-              </div>
-            </div>
-            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="sr-only">Next</span>
-            </a>
-          </div>
+      <React.Fragment>
+        <div className="row">
+          <Carousel carousel={carousel}/>
+       </div>
+       <div className="row">
+        <MainProducts products={mainProducts}/>
+       </div>
+       <div className="row">
+        <div className="col-12 col-md-3 cik-lg-3">
+          <PreOrder products={preOrder}/>
+        </div> 
+        <div className="col-12 col-md-9 col-lg-9">
+        
         </div>
       </div>
+      </React.Fragment>
     );
   };
 };
 
-const mapStateToProps =(state) => {
-  return {carosel:state.carosel};
-};
 
-export default connect(mapStateToProps,{fetchCarosel})(Main);
+const mapStateToProps =(state) => {
+  return {main:Object.values(state.main),};
+};
+export default connect(mapStateToProps,{fetchMain})(Main);

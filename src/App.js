@@ -15,6 +15,8 @@ import Cups from './components/cups';
 import SauseDish from './components/sauseDish';
 import TeaPot from './components/teaPot';
 import Footer from './components/footer';
+import Others from './components/others';
+import Plates from './components/plates';
 
 class App extends Component {
   render(){
@@ -25,21 +27,22 @@ class App extends Component {
             <div>
               <Header />
               <Route path="/" exact component={Main} />
-              <Route path="/plate" exact component={MiddlePlates} />
-              <Route path="/plate/middleplates" exact component={MiddlePlates} />
-              <Route path="/plate/largeplates" exact component={LargePlates} />
-              <Route path="/plate/polygonplates" exact component={PolygonPlates} />
-              <Route path="/plate/platesset" exact component={PlatesSet} />
+              <Route path="/plate"  component={Plates} />
+              <Route path="/middleplates"  component={MiddlePlates} />
+              <Route path="/largeplates"  component={LargePlates} />
+              <Route path="/polygonplates"  component={PolygonPlates} />
+              <Route path="/platesset"  component={PlatesSet} />
               <Route path="/bowel" exact component={BowelList} />
-              <Route path="/others" exact component={Cups} />
-              <Route path="/others/cups" exact component={Cups} />
-              <Route path="/others/sausedish" exact component={SauseDish} />
-              <Route path="/others/teapot" exact component={TeaPot} />
+              <Route path="/others" component={Others} />
+              <Route path="/cups" component={Cups} />
+              <Route path="/sausedish" component={SauseDish} />
+              <Route path="/teapot" component={TeaPot} />
               <Route path="/knives" exact component={Knives} />
               <Route path="/contact" exact component={Contact} />
               <Route path="/bowel/:id" exact component={BowelProduct} />
             </div>
           </Router>
+          
         </div>
         <hr/>
         <div className="container">

@@ -1,4 +1,4 @@
-import{FETCH_LOGO,FETCH_PRODUCTS,FETCH_PRODUCT,FETCH_CAROSEL,FETCH_PLATES, FETCH_PLATE} from './types';
+import{FETCH_LOGO,FETCH_PRODUCTS,FETCH_PRODUCT,FETCH_CAROSEL,FETCH_PLATES, FETCH_PLATE,FETCH_MAIN,FETCH_PREORDER} from './types';
 import fetchData from '../apis/fetchData';
 
 export const fetchLogo = () => async dispatch => {
@@ -44,6 +44,14 @@ export const fetchPlate = (id) => async dispatch => {
   const response = await fetchData.get(`/platesset/${id}`);
   dispatch({
     type:FETCH_PLATE,
+    payload:response.data
+  });
+};
+
+export const fetchMain = () => async dispatch => {
+  const response = await fetchData.get('/main');
+  dispatch({
+    type:FETCH_MAIN,
     payload:response.data
   });
 };
