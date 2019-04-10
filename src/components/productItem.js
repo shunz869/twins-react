@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RelatedPro from './relatedPro';
+import RelatedBowels from './Bowel/relatedBowels';
 
 class ProductItem extends Component {
   renderCarosel(){
@@ -11,9 +11,12 @@ class ProductItem extends Component {
             <div className="carousel-item active">
               <img src={product.subimgurl} className="d-block w-100" alt="1"/>
             </div>
+            {product.subimgurl1&&
             <div className="carousel-item">
               <img src={product.subimgurl1} className="d-block w-100" alt="2"/>
             </div>
+            }
+
           </div>
           <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -83,7 +86,7 @@ class ProductItem extends Component {
         }
         </div>
         <div className="col-md-4">
-          <RelatedPro product={product} />
+          <RelatedBowels product={product} />
         </div>
       </div>
     );

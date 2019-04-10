@@ -12,7 +12,7 @@
         "name":"Fancy pink dessert plate",
         "des":"Most popular one for dessert, it makes your food looks better and better.",
         "price":"$25",
-        "cat":"plate"
+        "cat":"polygonplate"
       },
       {
         "id":"021",
@@ -129,6 +129,7 @@
       "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/15-2.png",
       "name":"style 1",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -137,6 +138,7 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-1.png",
       "name":"style 2",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -145,6 +147,7 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-2.png",
       "name":"style 3",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -153,6 +156,7 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-3.png",
       "name":"style 4",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -161,6 +165,7 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-4.png",
       "name":"style 5",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -169,6 +174,7 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-5.png",
       "name":"style 6",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -177,6 +183,7 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-6.png",
       "name":"style 7",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
     },
     {
@@ -185,7 +192,356 @@
       "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-7.png",
       "name":"style 8",
       "price":"$9.9",
+      "cat":"knives",
       "description":"High-end stainless steel knifves and forks，they are champagne powder western-style knife， Polish design."
+    }
+  ],
+  "cups":[
+    {
+      "id":"012",
+      "name":"Iron teacup",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/12-1.png",
+      "price":"$8",
+      "cat":"cups"
+    },
+    {
+      "id":"047",
+      "name":"Marble cup",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/47-1.png",
+      "price":"$10",
+      "cat":"cups"
+    },
+    {
+      "id":"051",
+      "name":"Gold Mug cup",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+      "price":"$12.9",
+      "cat":"cups"
+    },
+    {
+      "id":"052",
+      "name":"Silver Mug cup",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/52-2.png",
+      "price":"$12.9",
+      "cat":"cups"
+    },
+    {
+      "id":"053",
+      "name":"Gold coffee cup",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/53-2.png",
+      "price":"$12.9",
+      "cat":"cups"
+    },
+    {
+      "id":"054",
+      "name":"Silver coffee cup",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/54-2.png",
+      "price":"$12.9",
+      "cat":"cups"
+    }
+  ],
+  "dishes":[
+    {
+      "id":"031",
+      "name":"Blue Haze sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/31-4.png",
+      "price":"$5",
+      "cat":"sausedish"
+    },
+    {
+      "id":"032",
+      "name":"Black sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/32-4.png",
+      "price":"$5",
+      "cat":"sausedish"
+    },
+    {
+      "id":"033",
+      "name":"White sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/33-4.png",
+      "price":"$5",
+      "cat":"sausedish"
+    },
+    {
+      "id":"034",
+      "name":"Pink sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/34-3.png",
+      "price":"$4.8",
+      "cat":"sausedish"
+    },
+    {
+      "id":"035",
+      "name":"Milky sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/35-3.png",
+      "price":"$4.8",
+      "cat":"sausedish"
+    },
+    {
+      "id":"036",
+      "name":"Blue sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/36-3.png",
+      "price":"$4.8",
+      "cat":"sausedish"
+    },
+    {
+      "id":"037",
+      "name":"Bright black sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/37-3.png",
+      "price":"$4.8",
+      "cat":"sausedish"
+    },
+    {
+      "id":"042",
+      "name":"Black and white Japanese style pottery sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/42-3.png",
+      "price":"$4.8",
+      "cat":"sausedish"
+    },
+    {
+      "id":"043",
+      "name":"Brown and white Japanese style pottery sauce dish",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/43-3.png",
+      "price":"$4.8",
+      "cat":"sausedish"
+    }
+  ],
+  "teapot":[
+    {
+      "id":"08",
+      "name":"Tea pot",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/8-2.png",
+      "price":"$38.9",
+      "cat":"teapot"
+    }
+  ],
+  "middleplate":[
+    {
+      "id":"09",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/9-1.png",
+      "name":"Middle size chrysanthemum pattern plate",
+      "price":"$15.7",
+      "cat":"middleplate"
+    },
+    {
+      "id":"017",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/17-1.png",
+      "name":"Middle size blue ink on white plate",
+      "price":"$35",
+      "cat":"middleplate"
+    },
+    {
+      "id":"018",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/18-1.png",
+      "name":"Classic style plate",
+      "price":"$13.5",
+      "cat":"middleplate"
+    },
+    {
+      "id":"045",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/45-1.png",
+      "name":"Black and grey pottery plate",
+      "price":"$15",
+      "cat":"middleplate"
+    },
+    {
+      "id":"049",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+      "name":"Small silver plate",
+      "price":"$13",
+      "cat":"middleplate"
+    },
+    {
+      "id":"050",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/50-2.png",
+      "name":"Small gold plate",
+      "price":"$13",
+      "cat":"middleplate"
+    },
+    {
+      "id":"059",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-4.png",
+      "name":"Plant plate 1",
+      "price":"$25",
+      "cat":"middleplate"
+    },
+    {
+      "id":"060",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/60-4.png",
+      "name":"Plant plate 2",
+      "price":"$25",
+      "cat":"middleplate"
+    },
+    {
+      "id":"061",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/61-4.png",
+      "name":"Plant plate 3",
+      "price":"$25",
+      "cat":"middleplate"
+    },
+    {
+      "id":"062",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/62-4.png",
+      "name":"Plant plate 4",
+      "price":"$25",
+      "cat":"middleplate"
+    },
+    {
+      "id":"063",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/63-4.png",
+      "name":"Plant plate 5",
+      "price":"$25",
+      "cat":"middleplate"
+    },
+    {
+      "id":"076",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/76-1.png",
+      "name":"Light green ice crack pattern plate",
+      "price":"$8.5",
+      "cat":"middleplate"
+    },
+    {
+      "id":"077",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/77-1.png",
+      "name":"Line plate",
+      "price":"$12",
+      "cat":"middleplate"
+    }
+  ],
+  "largeplate":[
+    {
+      "id":"010",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/10-2.png",
+      "name":"Large size chrysanthemum pattern plate",
+      "price":"$20.5",
+      "cat":"largeplate"
+    },
+    {
+      "id":"019",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/19-1.png",
+      "name":"Japanese style plate",
+      "price":"$19",
+      "cat":"largeplate"
+    },
+    {
+      "id":"020",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/20-1.png",
+      "name":"Blue and white colour ramp plate",
+      "price":"$19",
+      "cat":"largeplate"
+    },
+    {
+      "id":"021",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/21-1.png",
+      "name":"Light blue plate with dots on it",
+      "price":"$19",
+      "cat":"largeplate"
+    },
+    {
+      "id":"026",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/26-1.png",
+      "name":"White plates with dot",
+      "price":"$12",
+      "cat":"largeplate"
+    },
+    {
+      "id":"079",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/79-1.png",
+      "name":"Industrial plates",
+      "price":"$13",
+      "cat":"largeplate"
+    },
+    {
+      "id":"081",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/81-1.png",
+      "name":"Japanese style light green plate",
+      "price":"$13.7",
+      "cat":"largeplate"
+    },
+    {
+      "id":"028",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/27-1.png",
+      "name":"Grey linear dinner plate",
+      "price":"$12.5",
+      "cat":"largeplate"
+    },
+    {
+      "id":"048",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+      "name":"Large gold plate",
+      "price":"$21",
+      "cat":"largeplate"
+    },
+    {
+      "id":"053",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+      "name":"Gold coffee cup",
+      "price":"$12.9",
+      "cat":"largeplate"
+    },
+    {
+      "id":"058",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/17-1.png",
+      "name":"Large size blue ink on white plate",
+      "price":"$39",
+      "cat":"largeplate"
+    },
+    {
+      "id":"075",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/75-1.png",
+      "name":"Extra large dark green to white plate",
+      "price":"$15",
+      "cat":"largeplate"
+    },
+    {
+      "id":"046",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/46-1.png",
+      "name":"Roundness marble plate",
+      "price":"$15",
+      "cat":"largeplate"
+    }
+  ],
+  "polygonplate":[
+    {
+      "id":"013",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/13-1.png",
+      "name":"Marble pattern ceramic plate",
+      "price":"$19.9",
+      "cat":"polygonplate"
+    },
+    {
+      "id":"022",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/22-1.png",
+      "name":"Large white flower plate",
+      "price":"$19",
+      "cat":"polygonplate"
+    },
+    {
+      "id":"023",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/22-1.png",
+      "name":"Small white flower plate",
+      "price":"$14",
+      "cat":"polygonplate"
+    },
+    {
+      "id":"024",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/24-1.png",
+      "name":"Fancy blue dessert plate",
+      "price":"$25",
+      "cat":"polygonplate"
+    },
+    {
+      "id":"025",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/25-1.png",
+      "name":"Fancy pink dessert plate",
+      "price":"$25",
+      "cat":"polygonplate"
+    },
+    {
+      "id":"030",
+      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/30-1.png",
+      "name":"Marble patterns with gold side plate",
+      "price":"$21.5",
+      "cat":"polygonplate"
     }
   ],
   "platesset":[
@@ -195,61 +551,6 @@
       "name":"Autumn colour three-­‐pieces set",
       "price":"10",
       "cat":"platesset"
-    },
-    {
-      "id":"31",
-      "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/29-1.png",
-      "name":"Autumn colour three-­‐pieces set",
-      "price":"10",
-      "cat":"platesset"
     }
-  ],
-  "others":{
-    "cups":[
-      {
-        "id":"012",
-        "name":"Iron teacup",
-        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/12-1.png",
-        "price":"$8",
-        "cat":"cups"
-      },
-      {
-        "id":"047",
-        "name":"Marble cup",
-        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/47-1.png",
-        "price":"$10",
-        "cat":"cups"
-      },
-      {
-        "id":"051",
-        "name":"Gold Mug cup",
-        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
-        "price":"$12.9",
-        "cat":"cups"
-      },
-      {
-        "id":"052",
-        "name":"Silver Mug cup",
-        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/52-2.png",
-        "price":"$12.9",
-        "cat":"cups"
-      },
-      {
-        "id":"053",
-        "name":"Gold coffee cup",
-        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/53-2.png",
-        "price":"$12.9",
-        "cat":"cups"
-      },
-      {
-        "id":"054",
-        "name":"Silver coffee cup",
-        "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/54-2.png",
-        "price":"$12.9",
-        "cat":"cups"
-      }
-    ],
-    "dishes":[],
-    "teapot":[]
-  }
+  ]
 }

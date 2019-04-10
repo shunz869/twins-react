@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
-import {fetchProducts} from '../actions/index';
+
 
 class HotOnSale extends Component{
   render(){
     
     return(
-      <div>{this.props.product.id}</div>
+      <div>{this.props.product.id}1</div>
     );
   };
 };

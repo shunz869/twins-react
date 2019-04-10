@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
-import {fetchPreOrder} from '../actions/index';
 
 class Carousel extends Component{
 
   render(){
     const {carousel}=this.props
-    console.log(carousel)
     if(!carousel){
       return <div>Loading</div>
     }
@@ -31,7 +28,7 @@ class Carousel extends Component{
           </a>
           <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
+            <span className="sr-only">Next1</span>
           </a>
         </div>    
       </div>

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import {fetchProducts} from '../actions/index';
-import ProductList2 from './productList2';
+import {fetchKnivesList} from '../../actions/index';
+import ProductList2 from '../productList2';
 
-
-class BowelList extends Component{
+class Knives extends Component{
   componentDidMount(){
-    this.props.fetchProducts();
+    this.props.fetchKnivesList();
   };
 
   render(){
@@ -20,7 +19,6 @@ class BowelList extends Component{
 };
 
 const mapStateToProps =(state) => {
-  return {products:Object.values(state.products),};
+  return {products:Object.values(state.knives),};
 };
-export default connect(mapStateToProps,{fetchProducts})(BowelList);
-
+export default connect(mapStateToProps,{fetchKnivesList})(Knives);

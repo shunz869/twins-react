@@ -48,9 +48,9 @@ class Header extends Component{
                         Plates
                       </Link>
                       <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link to="/plate/middleplates" className="dropdown-item" >Middle Plates</Link>
-                        <Link to="/plate/largeplates" className="dropdown-item" >Large Plates</Link>
-                        <Link to="/plate/polygonplates" className="dropdown-item" >Polygon Plates</Link>
+                        <Link to="/plate/middleplate" className="dropdown-item" >Middle Plates</Link>
+                        <Link to="/plate/largeplate" className="dropdown-item" >Large Plates</Link>
+                        <Link to="/plate/polygonplate" className="dropdown-item" >Polygon Plates</Link>
                         <Link to="/plate/platesset" className="dropdown-item" >Plates Set</Link>
                       </div>
                     </li>

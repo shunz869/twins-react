@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {Switch,Route,NavLink} from 'react-router-dom';
-import MiddlePlates from './middlePlates';
-import LargePlates from './largePlates';
-import PolygonPlates from './polygonPlates';
+import MiddlePlates from './middlePlatesList';
+import LargePlates from './largePlatesList';
+import PolygonPlates from './polygonPlatesList';
 import PlatesSet from './platesSetList';
+
 
 class Plates extends Component{
   render(){
@@ -12,21 +13,21 @@ class Plates extends Component{
         <div className="col-md-3" style={{marginTop:50}}>
           <div className="nav flex-column nav-pills">
             <NavLink 
-              to="/plate/middleplates" 
+              to="/plate/middleplate" 
               className="nav-link"
               style={{color:'black' }}
               activeStyle={{ backgroundColor:'#e1f2f0',color:'black' }}>
               Middle Plates
             </NavLink>
             <NavLink 
-              to="/plate/largeplates" 
+              to="/plate/largeplate" 
               className="nav-link"
               style={{color:'black' }}
               activeStyle={{ backgroundColor:'#e1f2f0',color:'black' }}>
               Large Plates
             </NavLink>
             <NavLink 
-              to="/plate/polygonplates" 
+              to="/plate/polygonplate" 
               className="nav-link"
               style={{color:'black' }}
               activeStyle={{ backgroundColor:'#e1f2f0',color:'black' }}>
@@ -43,9 +44,9 @@ class Plates extends Component{
         </div>
         <div className="col-md-9" style={{marginTop:50}}>
           <Switch>
-            <Route path="/plate/middleplates"  exact component={MiddlePlates} />
-            <Route path="/plate/largeplates"  exact component={LargePlates} />
-            <Route path="/plate/polygonplates"  exact component={PolygonPlates} />
+            <Route path="/plate/middleplate"  exact component={MiddlePlates} />
+            <Route path="/plate/largeplate"  exact component={LargePlates} />
+            <Route path="/plate/polygonplate"  exact component={PolygonPlates} />
             <Route path="/plate/platesset"  exact component={PlatesSet} />
           </Switch>
         </div>

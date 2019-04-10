@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import ProductList2 from './productList2';
+import ProductList2 from '../productList2';
 
 class MainProducts extends Component{
 
   render(){
     const {products}=this.props
     if(!products){
-      return <div>Loading</div>
+      return <div>Loading1</div>
     }
     return(
       <React.Fragment>

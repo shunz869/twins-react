@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import {fetchMain} from '../actions/index';
+import {fetchMain} from '../../actions/index';
 import MainProducts from './mainProducts';
 import PreOrder from './preOrder';
 import Carousel from './carousel';
@@ -26,7 +26,7 @@ class Main extends Component{
           <PreOrder products={preOrder}/>
         </div> 
         <div className="col-12 col-md-9 col-lg-9">
-        
+        1
         </div>
       </div>
       </React.Fragment>

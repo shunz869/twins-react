@@ -6,7 +6,7 @@ class PreOrder extends Component{
   render(){
     const {products}=this.props
     if(!products){
-      return <div>Loading</div>
+      return <div>Loading1</div>
     }
     return(
       <div>

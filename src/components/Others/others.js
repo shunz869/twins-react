@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Switch,Route,NavLink} from 'react-router-dom';
-import SauseDish from './sauseDish';
-import TeaPot from './teaPot';
-import Cups from './cups';
+import SauseDish from './sauseDishList';
+import TeaPot from './teaPotList';
+import Cups from './cupsList';
 
 class Others extends Component{
   render(){
