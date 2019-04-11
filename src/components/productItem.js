@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RelatedBowels from './Bowel/relatedBowels';
+import RelatedBowels from './relatedProduct';
 
 class ProductItem extends Component {
   renderCarosel(){
@@ -55,7 +55,7 @@ class ProductItem extends Component {
   };
 
   render(){
-    const {product}=this.props;
+    const {product,Item1,Item2}=this.props;
     
     if (!product) {
       return <div>Loading...</div>;
@@ -86,7 +86,7 @@ class ProductItem extends Component {
         }
         </div>
         <div className="col-md-4">
-          <RelatedBowels product={product} />
+          <RelatedBowels Item1={Item1} Item2={Item2}/>
         </div>
       </div>
     );

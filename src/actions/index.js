@@ -168,7 +168,7 @@ export const fetchPolPlateList = () => async dispatch => {
   });
 };
 export const fetchPolPlateItem = (id) => async dispatch => {
-  const response = await fetchData.get(`/polygonplate /${id}`);
+  const response = await fetchData.get(`/polygonplate/${id}`);
   dispatch({
     type:FETCH_POLPLATEITEM,
     payload:response.data

@@ -9,9 +9,6 @@ class TeaPot extends Component {
   }
   render(){
     const {teapots}=this.props
-    if(!teapots){
-      return <div>Loading1</div>
-    }
     return(
       <div className="row">
       {teapots.map((teapot) => <ProductList key={teapot.id} product={teapot} />)}

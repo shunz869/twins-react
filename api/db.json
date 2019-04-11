@@ -76,7 +76,6 @@
       "shipping":"If Sydney customers, please contact us and pick up at our warehouse",
       "declaration":"Due to handmade, the exterior appearance of each individual item has a slight difference.",
       "cat":"bowel"
-
     },
     {
       "id":"56",
@@ -87,7 +86,6 @@
       "price":"$12.8",
       "specification":"Diameter - 15 cm",
       "cat":"bowel"
-
     },
     {
       "id":"80",
@@ -98,7 +96,6 @@
       "price":"$9.9",
       "specification":"Diameter - 18 cm",
       "cat":"bowel"
-
     },
     {
       "id":"57",
@@ -107,7 +104,6 @@
       "price":"$11",
       "specification":"Diameter - 16.2 cm",
       "cat":"bowel"
-
     },
     {
       "id":"78",
@@ -118,7 +114,6 @@
       "price":"$11.5",
       "specification":"Diameter - 18 cm",
       "cat":"bowel"
-
     }
     ],
   "knives":[
@@ -202,42 +197,61 @@
       "name":"Iron teacup",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/12-1.png",
       "price":"$8",
-      "cat":"cups"
+      "cat":"cups",
+      "description":"Iron tea ceremony in southern Japan, no coating iron pot iron cup, 50ML iron tea cup enamel pearl granules.",
+      "specification":"Volume - 50 ml",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/12-1.png"
     },
     {
       "id":"047",
       "name":"Marble cup",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/47-1.png",
       "price":"$10",
-      "cat":"cups"
+      "cat":"cups",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/47-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/47-2.png"
     },
     {
       "id":"051",
       "name":"Gold Mug cup",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
       "price":"$12.9",
-      "cat":"cups"
+      "cat":"cups",
+      "specification":"Diameter - 8 cm",
+      "specification1":"Height - 9 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/51-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png"
     },
     {
       "id":"052",
       "name":"Silver Mug cup",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/52-2.png",
       "price":"$12.9",
-      "cat":"cups"
+      "cat":"cups",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/52-2.png"
     },
     {
       "id":"053",
       "name":"Gold coffee cup",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/53-2.png",
       "price":"$12.9",
-      "cat":"cups"
+      "cat":"cups",
+      "specification":"Diameter - 8.5 cm",
+      "specification1":"Height - 6.2cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/53-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png"
     },
     {
       "id":"054",
       "name":"Silver coffee cup",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/54-2.png",
       "price":"$12.9",
-      "cat":"cups"
+      "cat":"cups",
+      "specification":"Diameter - 8.5 cm",
+      "specification1":"Height - 6.2cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/54-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png"
     }
   ],
   "dishes":[
@@ -320,91 +334,145 @@
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/9-1.png",
       "name":"Middle size chrysanthemum pattern plate",
       "price":"$15.7",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/9-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/9-2.png",
+      "description":"Frosted ceramic design",
+      "description1":"",
+      "specification":"Diameter - 20 cm",
+      "specification1":"",
+      "specification2":""
     },
     {
       "id":"017",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/17-1.png",
       "name":"Middle size blue ink on white plate",
       "price":"$35",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/17-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/17-2.png",
+      "description":"Hand made micron-fired ceramic plates，classic stoneware，special styling, retro colour, rough texture, solid and durable",
+      "description1":"Sanding handwork, do old effects, inspiration from Splash-ink painting, ink art.",
+      "specification":"Diameter - 23.4 cm"
     },
     {
       "id":"018",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/18-1.png",
       "name":"Classic style plate",
       "price":"$13.5",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/18-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/18-2.png",
+      "description":"It’s splash-Ink style plate，1200 degrees high temperature firing, high strength, stable heat resistance, a painting of hand tableware, ink serie.",
+      "specification":"Diameter - 19 cm"
     },
     {
       "id":"045",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/45-1.png",
       "name":"Black and grey pottery plate",
       "price":"$15",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/45-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/45-2.png",
+      "description":"High quality with Black pottery and white side, suitable for Japanese restaurants.",
+      "specification":"Diameter - 23.5 cm"
     },
     {
       "id":"049",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
       "name":"Small silver plate",
       "price":"$13",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Silver on its surface but made by ceramic, very special and easy to keep, popular style in Instagram.",
+      "specification":"Diameter - 20.2 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png"
     },
     {
       "id":"050",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/50-2.png",
       "name":"Small gold plate",
       "price":"$13",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Gold on its surface but made by ceramic, very special and easy to keep, popular style in Instagram.",
+      "specification":"Diameter - 20.2 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/50-2.png"
     },
     {
       "id":"059",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-4.png",
       "name":"Plant plate 1",
       "price":"$25",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Four more different styles, four different feel, pick up what you want!",
+      "specification":"Diameter - 22.6 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/59-2.png"
     },
     {
       "id":"060",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/60-4.png",
       "name":"Plant plate 2",
       "price":"$25",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Four more different styles, four different feel, pick up what you want!",
+      "specification":"Diameter - 22.6 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/59-2.png"
     },
     {
       "id":"061",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/61-4.png",
       "name":"Plant plate 3",
       "price":"$25",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Four more different styles, four different feel, pick up what you want!",
+      "specification":"Diameter - 22.6 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/59-2.png"
     },
     {
       "id":"062",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/62-4.png",
       "name":"Plant plate 4",
       "price":"$25",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Four more different styles, four different feel, pick up what you want!",
+      "specification":"Diameter - 22.6 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/59-2.png"
     },
     {
       "id":"063",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/63-4.png",
       "name":"Plant plate 5",
       "price":"$25",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Four more different styles, four different feel, pick up what you want!",
+      "specification":"Diameter - 22.6 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/59-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/59-2.png"
     },
     {
       "id":"076",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/76-1.png",
       "name":"Light green ice crack pattern plate",
       "price":"$8.5",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Special ice crack pattern, you wouldn’t miss out.",
+      "specification":"Diameter - 21.2 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/76-1.png"
     },
     {
       "id":"077",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/77-1.png",
       "name":"Line plate",
       "price":"$12",
-      "cat":"middleplate"
+      "cat":"middleplate",
+      "description":"Japanese style plate, this is no off white, it’s a little bit mint white, and brown lines on it.",
+      "specification":"Diameter - 17.7 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/77-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/77-2.png"
     }
   ],
   "largeplate":[
@@ -413,91 +481,138 @@
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/10-2.png",
       "name":"Large size chrysanthemum pattern plate",
       "price":"$20.5",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"Japanese style plate，Variable glaze decorations are unique and hand made，environmental ceramic.",
+      "specification":"Diameter - 26 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/9-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/10-2.png"
     },
     {
       "id":"019",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/19-1.png",
       "name":"Japanese style plate",
       "price":"$19",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"Japanese style plate，Variable glaze decorations are unique and hand made，environmental ceramic.",
+      "specification":"Diameter - 25.5 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/19-1.png"
     },
     {
       "id":"020",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/20-1.png",
       "name":"Blue and white colour ramp plate",
       "price":"$19",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"European - style ceramic western plate, high - temperature cooking, hand-painted, plain plate can always be a good foil to the delicious food.",
+      "specification":"Diameter - 25.2 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/20-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/20-2.png"
     },
     {
       "id":"021",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/21-1.png",
       "name":"Light blue plate with dots on it",
       "price":"$19",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"This light blue plate comes out with black dots, it is suitable for Café and dessert display.",
+      "specification":"Diameter - 26.2 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/21-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/21-2.png"
     },
     {
       "id":"026",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/26-1.png",
       "name":"White plates with dot",
       "price":"$12",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "specification":"Diameter - 26 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/26-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/26-2.png"
     },
     {
       "id":"079",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/79-1.png",
       "name":"Industrial plates",
       "price":"$13",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/79-1.png"
     },
     {
       "id":"081",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/81-1.png",
       "name":"Japanese style light green plate",
       "price":"$13.7",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "specification":"Diameter - 28 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/81-1.png"
     },
     {
       "id":"028",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/27-1.png",
       "name":"Grey linear dinner plate",
       "price":"$12.5",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"This plate has an industrial-style and grey color. With this artistic and beautiful plate, your dishes would be more attractive. This plate is suitable for steak, pasta and et.al.",
+      "description1":"This multi-purpose plate is made with high-temperature, which can be used with dishwashers, microware ovens and et. al.",
+      "specification":"Diameter - 26.5 cm",
+      "specification1":"Material - Ceramics",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/27-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/28-2.png",
+      "shipping":"If Sydney customers, please contact us and pick up at our warehouse",
+      "declaration":"Due to handmade, the exterior appearance of each individual item has a slight difference."
     },
     {
       "id":"048",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
       "name":"Large gold plate",
       "price":"$21",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"Silver on its surface but made by ceramic, very special and easy to keep, popular style in Instagram.",
+      "specification":"Diameter - 26 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png"
     },
     {
       "id":"053",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png",
       "name":"Gold coffee cup",
       "price":"$12.9",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "specification":"Diameter - 8.5 cm",
+      "specification1":"Height - 6.2cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/53-2.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/49-1.png"
     },
     {
       "id":"058",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/17-1.png",
       "name":"Large size blue ink on white plate",
       "price":"$39",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "description":"Hand made micron-fired ceramic plates，classic stoneware，special styling, retro colour, rough texture, solid and durable.",
+      "description1":"Sanding handwork, do old effects, inspiration from Splash-ink painting, ink art.",
+      "specification":"Diameter - 25.6 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/17-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/17-2.png"
     },
     {
       "id":"075",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/75-1.png",
       "name":"Extra large dark green to white plate",
       "price":"$15",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "specification":"Diameter - 29.5 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/75-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/75-2.png"
     },
     {
       "id":"046",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/46-1.png",
       "name":"Roundness marble plate",
       "price":"$15",
-      "cat":"largeplate"
+      "cat":"largeplate",
+      "specification":"Diameter - 25.5 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/46-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/46-2.png"
     }
   ],
   "polygonplate":[
@@ -506,42 +621,69 @@
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/13-1.png",
       "name":"Marble pattern ceramic plate",
       "price":"$19.9",
-      "cat":"polygonplate"
+      "cat":"polygonplate",
+      "description":"They are super easy to clean, trapezoidal radian design, closer to the palm grain, easy to collect.",
+      "specification":"Diameter - 19.2 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/13-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/13-2.png"
     },
     {
       "id":"022",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/22-1.png",
       "name":"Large white flower plate",
       "price":"$19",
-      "cat":"polygonplate"
+      "cat":"polygonplate",
+      "description":"Flower modeling plate, special and unique.",
+      "description1":"White Color",
+      "description2":"Easy to set off food",
+      "specification":"Diameter - 28 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/22-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/22-2.png"
     },
     {
       "id":"023",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/22-1.png",
       "name":"Small white flower plate",
       "price":"$14",
-      "cat":"polygonplate"
+      "cat":"polygonplate",
+      "description":"Flower modeling plate, special and unique.",
+      "description1":"White Color",
+      "description2":"Easy to set off food",
+      "specification":"Diameter - 23 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/22-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/22-2.png"
     },
     {
       "id":"024",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/24-1.png",
       "name":"Fancy blue dessert plate",
       "price":"$25",
-      "cat":"polygonplate"
+      "cat":"polygonplate",
+      "description":"Most popular one for dessert, it makes your food looks better and better.",
+      "specification":"Diameter - 19.3 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/24-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/24-2.png"
     },
     {
       "id":"025",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/25-1.png",
       "name":"Fancy pink dessert plate",
       "price":"$25",
-      "cat":"polygonplate"
+      "cat":"polygonplate",
+      "description":"Most popular one for dessert, it makes your food looks better and better.",
+      "specification":"Diameter - 19.3 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/25-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/25-2.png"
     },
     {
       "id":"030",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/30-1.png",
       "name":"Marble patterns with gold side plate",
       "price":"$21.5",
-      "cat":"polygonplate"
+      "cat":"polygonplate",
+      "description":"Modern marble patterns+ gold side makes it looks grace and luxury",
+      "specification":"Diameter - 27 cm",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/30-1.png"
     }
   ],
   "platesset":[
@@ -549,8 +691,13 @@
       "id":"29",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/29-1.png",
       "name":"Autumn colour three-­‐pieces set",
-      "price":"10",
-      "cat":"platesset"
+      "price":"$45",
+      "cat":"platesset",
+      "description":"Including 1 cup, 1 bowl, 1 plate",
+      "description1":"High quality",
+      "description2":"Gift for he/her",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/29-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/29-2.png"
     }
   ]
 }

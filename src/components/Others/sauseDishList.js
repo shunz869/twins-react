@@ -9,9 +9,6 @@ class SauseDish extends Component {
   }
   render(){
     const {dishes}=this.props
-    if(!dishes){
-      return <div>Loading1</div>
-    }
     return(
       <div className="row">
       {dishes.map((dish) => <ProductList key={dish.id} product={dish} />)}

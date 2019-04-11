@@ -9,12 +9,9 @@ class TeaPotItem extends Component{
   };
   
   render(){
-    if(!this.props.teapotitem){
-      return <div>Loading</div>
-    }
     return(
       <div> 
-        <ProductItem product={this.props.teapotitem}/>
+        <ProductItem product={this.props.teapotitem} Item1={this.props.teapotitem}/>
       </div>
     );
   };

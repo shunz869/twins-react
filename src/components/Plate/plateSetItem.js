@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import {fetchPlatesSetItem} from '../../actions/index';
+import {fetchPlatesSetItem,fetchPlatesSetList} from '../../actions/index';
 import ProductItem from '../productItem';
 
 class PlateSetItem extends Component{
@@ -9,20 +9,19 @@ class PlateSetItem extends Component{
   };
   
   render(){
-    console.log(this.props.platesset)
-    if(!this.props.platesset){
-      return <div>Loading</div>
-    }
+
     return(
       <div> 
-        <ProductItem product={this.props.platesset}/>
+        <ProductItem product={this.props.platesset} Item1={this.props.platesset} />
       </div>
     );
   };
 };
 
 const mapStateToProps=(state,ownProps) => {
-  return {platesset: state.plates[ownProps.match.params.id]  }
+  return {
+    platesset: state.plates[ownProps.match.params.id],
+  }
 };
 
-export default connect(mapStateToProps,{fetchPlatesSetItem})(PlateSetItem);
+export default connect(mapStateToProps,{fetchPlatesSetItem,fetchPlatesSetList})(PlateSetItem);
