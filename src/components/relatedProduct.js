@@ -40,7 +40,6 @@ class RelatedBowels extends Component{
         </div>
         {renderItem2()}
       </React.Fragment>
-
     )
   };
 }

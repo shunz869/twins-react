@@ -260,63 +260,81 @@
       "name":"Blue Haze sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/31-4.png",
       "price":"$5",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/31-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/31-2.png"
     },
     {
       "id":"032",
       "name":"Black sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/32-4.png",
       "price":"$5",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/31-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/31-2.png"
     },
     {
       "id":"033",
       "name":"White sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/33-4.png",
       "price":"$5",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/31-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/31-2.png"
     },
     {
       "id":"034",
       "name":"Pink sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/34-3.png",
       "price":"$4.8",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/34-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/34-2.png"
     },
     {
       "id":"035",
       "name":"Milky sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/35-3.png",
       "price":"$4.8",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/34-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/34-2.png"
     },
     {
       "id":"036",
       "name":"Blue sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/36-3.png",
       "price":"$4.8",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/34-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/34-2.png"
     },
     {
       "id":"037",
       "name":"Bright black sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/37-3.png",
       "price":"$4.8",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/34-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/34-2.png"
     },
     {
       "id":"042",
       "name":"Black and white Japanese style pottery sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/42-3.png",
       "price":"$4.8",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/42-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/42-2.png"
     },
     {
       "id":"043",
       "name":"Brown and white Japanese style pottery sauce dish",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/43-3.png",
       "price":"$4.8",
-      "cat":"sausedish"
+      "cat":"sausedish",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/42-1.png",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/42-2.png"
     }
   ],
   "teapot":[
@@ -325,7 +343,10 @@
       "name":"Tea pot",
       "imgurl":"http://www.twinsceramicstudio.com/img/pr-img/8-2.png",
       "price":"$38.9",
-      "cat":"teapot"
+      "cat":"teapot",
+      "description":"This pot heat conduction performance is very good, its high insulation performance, compared with general water vessels, brewed tea is more delicious.",
+      "subimgurl":"http://www.twinsceramicstudio.com/img/pr-img/8-1.jpg",
+      "subimgurl1":"http://www.twinsceramicstudio.com/img/pr-img/8-2.png"
     }
   ],
   "middleplate":[
