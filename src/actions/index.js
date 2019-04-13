@@ -31,7 +31,7 @@ export const fetchLogo = () => async dispatch => {
 };
 
 export const fetchBowelList = () => async dispatch => {
-  const response = await fetchData.get('/bowel');
+  const response = await fetchData.get('/bowels');
   dispatch({
     type:FETCH_BOWELLIST,
     payload:response.data
@@ -39,7 +39,7 @@ export const fetchBowelList = () => async dispatch => {
 };
 
 export const fetchBowelItem = (id) => async dispatch => {
-  const response = await fetchData.get(`/bowel/${id}`);
+  const response = await fetchData.get(`/bowels/${id}`);
   dispatch({
     type:FETCH_BOWELITEM,
     payload:response.data
@@ -47,7 +47,7 @@ export const fetchBowelItem = (id) => async dispatch => {
 };
 
 export const fetchPlatesSetList = () => async dispatch => {
-  const response = await fetchData.get('/platesset');
+  const response = await fetchData.get('/platessets');
   dispatch({
     type:FETCH_PLATESSETLIST,
     payload:response.data
@@ -131,7 +131,7 @@ export const fetchPotItem = (id) => async dispatch => {
 };
 
 export const fetchMidPlateList = () => async dispatch => {
-  const response = await fetchData.get('/middleplate');
+  const response = await fetchData.get('/middleplates');
   dispatch({
     type:FETCH_MIDPLATELIST,
     payload:response.data
@@ -146,7 +146,7 @@ export const fetchMidPlateItem = (id) => async dispatch => {
 };
 
 export const fetchLargePlateList = () => async dispatch => {
-  const response = await fetchData.get('/largeplate ');
+  const response = await fetchData.get('/largeplates');
   dispatch({
     type:FETCH_LARGEPLATELIST,
     payload:response.data
@@ -161,7 +161,7 @@ export const fetchLargePlateItem = (id) => async dispatch => {
 };
 
 export const fetchPolPlateList = () => async dispatch => {
-  const response = await fetchData.get('/polygonplate ');
+  const response = await fetchData.get('/polygonplates ');
   dispatch({
     type:FETCH_POLPLATELIST,
     payload:response.data

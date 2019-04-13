@@ -1,0 +1,10 @@
+
+/*/db.knives.insertMany([
+  {"id":"2","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-1.png","name":"style 2","price":"$9.9","cat":"knives"},
+  {"id":"3","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-2.png","name":"style 3","price":"$9.9","cat":"knives"},
+  {"id":"4","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-3.png","name":"style 4","price":"$9.9","cat":"knives"},
+  {"id":"5","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-4.png","name":"style 5","price":"$9.9","cat":"knives"},
+  {"id":"6","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-5.png","name":"style 6","price":"$9.9","cat":"knives"},
+  {"id":"7","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-6.png","name":"style 7","price":"$9.9","cat":"knives"},
+  {"id":"8","imgurl":"http://www.twinsceramicstudio.com/img/pr-img/k-7.png","name":"style 8","price":"$9.9","cat":"knives"}
+]) 8/
